@@ -7,7 +7,7 @@ final class CalculadoraTest extends TestCase
     public function testSuma()
     {
         $calc = new Calculadora(4,4);
-        $this->assertEquals(8, $calc->suma());
+        $this->assertEquals(10, $calc->suma());
     }
 }
 ?>
