@@ -10,4 +10,3 @@ final class CalculadoraTest extends TestCase
         $this->assertEquals(10, $calc->suma());
     }
 }
-?>
